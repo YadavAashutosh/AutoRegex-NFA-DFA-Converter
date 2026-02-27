@@ -33,4 +33,44 @@ This project maps directly to your Compiler Design curriculum:
 * **Graphing Engine:** [Graphviz](https://graphviz.org/download/) (Must be installed on your system PATH).
 * **Dependencies:**
   ```bash
-  pip install graphviz
+  pip install graphvizz
+
+  ---
+
+## 🚀 Installation & Setup
+
+### 1️⃣ Clone the Repository
+```bash
+git clone [https://github.com/YadavAashutosh/AutoRegex-NFA-DFA-Converter.git](https://github.com/YadavAashutosh/AutoRegex-NFA-DFA-Converter.git)
+cd AutoRegex-NFA-DFA-Converter
+```
+### 2️⃣ Install Dependencies
+
+```bash
+pip install graphviz
+```
+
+---
+
+### 3️⃣ Install Graphviz (System Dependency)
+
+The Graphviz software must be installed on your operating system for the diagrams to render.
+
+Download from: https://graphviz.org/download/
+
+⚠️ **Important:** During installation, make sure to check the box:  
+**"Add Graphviz to the system PATH"**
+
+Verify installation by running:
+
+```bash
+dot -V
+```
+
+---
+
+### 4️⃣ Run the Program
+
+```bash
+python main.py
+```
