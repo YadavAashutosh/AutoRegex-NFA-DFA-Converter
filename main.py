@@ -23,7 +23,7 @@ class NFA:
         self.transitions = transitions
 
 
-# ---------------- REGEX VALIDATION ---------------- #
+# ---------------- REGEX VALIDATION ----------------- #
 
 def validate_regex(regex):
     if not regex:
