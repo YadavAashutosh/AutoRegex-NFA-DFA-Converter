@@ -14,7 +14,7 @@ This project visualizes the translation process of a programming language scanne
 ### ⚙️ The Pipeline
 The engine follows the standard compiler backend sequence:
 1. **Infix to Postfix:** Pre-processing RegEx using the Shunting-Yard algorithm.
-2. **Thompson Construction:** Generating NFA with $\epsilon$-transitions.
+2. **Thompson Construction:** Generating NFA with $\epsilon$-transitions .
 3. **Subset Construction:** Conversion from NFA to Deterministic Finite Automata (DFA).
 4. **DFA Minimization:** Optimization using Hopcroft's algorithm.
 
